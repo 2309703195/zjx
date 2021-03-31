@@ -1,0 +1,23 @@
+设置为hdfs://localhost/，用于设置Hadoop的默认文件系统。
+Hadoop fs -help
+hadoop fs -copyFromLocal ${local file} ${hdfs file}
+本地文件：/home/hxxtsx/app/spe_app/tmp/template.sh
+hdfs上传路径：spe/template.sh
+
+hadoop fs -copyToLocal ${hdfs file} ${local file}
+
+hadoop fs -mkdir ${hdfs dir}创建
+hadoop fs -ls ${hdfs dir}查看
+
+hadoop fs -put ${local file[dir]} ${hdfs file[dir]}
+hadoop fs -get ${local file[dir]} ${hdfs file[dir]}
+hadoop fs -rm {$ hdfs dir[file]}
+
+hdfs dfsadmin –report 查看当前集群状态信息
+
+
+
+
+
+
+
