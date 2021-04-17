@@ -1,0 +1,10 @@
+OpenStack是一个开源的云计算管理平台项目。这不是个软件。通过web界面进行资源管理，或者命令行等管理。这个项目是好多小组件的结合体。实现1+1大于2的功能。
+特性：API对接亚马逊，使用Python开发，满足私有云和公有云特性。
+它是个属于lass层。
+三大组件：compute，networking，storage
+
+
+
+资料来源：https://www.bilibili.com/video/BV1iE411J7hU?p=21
+https://www.imooc.com/learn/497
+https://baike.baidu.com/item/OpenStack/342467?fr=aladdin
